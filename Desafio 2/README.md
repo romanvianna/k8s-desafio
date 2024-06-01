@@ -1,4 +1,4 @@
-Arquitetura de Kubernetes
+**Arquitetura de Kubernetes**
 
 O diagrama abaixo é referente a um Cluster com 3 Masters, 3 Workers e 2 servidores HAPROXY, o Primeiro servidor HAPROXY serve como balance do cluster kubernetes, para os Nodes se comunicarem entre si, o Segundo HAPROXY serve como um balance em uma zona DMZ, onde todas as requisições externas para aplicações dentro do K8S vao ser tratadas.
 Cluster com 6 Nodes, o mínimo de masters que um cluster de k8s pode ter é 3, e podemos aumentar ele sempre que necessário porem a quantidade de Masters sempre deve ser um numero Impar 3,5,7...

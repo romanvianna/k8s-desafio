@@ -1,5 +1,5 @@
 
-Dashboard Infraestrutura K8S
+**Dashboard Infraestrutura K8S**
 
 Nos dois prints de dashboards abaixo, temos o resource utilizado por cada Node como memoria, CPU, Disco, I/O e Rede, temos também um exemplo de Dash para monitoramento interno
  do kubernetes onde monitoramos deployment por deployment, todos eles possuem filtros onde você pode selecionar o namespace ou o Node que você quer para poder verificar mais
