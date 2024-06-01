@@ -1,9 +1,10 @@
 **Implementação de Pipeline CI/CD**
 
 Para esse desafio vou utilizar as ferramentas que mais estou familiarizado.
+
 •	GitHub Actions
 
-    Ferramenta que faz parte da plataforma do GitHub, vamos utilizar o Actions para ser o Motor da nossa esteira dentro dele podemos configurar o build 
+Ferramenta que faz parte da plataforma do GitHub, vamos utilizar o Actions para ser o Motor da nossa esteira dentro dele podemos configurar o build 
 de um artefato após o commit do desenvolvedor.
 
 •	Argo CD
