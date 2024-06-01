@@ -1,0 +1,21 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: projetox-develop
+  namespace: argocd
+spec:
+  destination:
+    namespace: projetox-develop
+    server: https://kubernetes.default.svc
+  project: default
+  source:
+    repoURL: 'git@github.com:roman/kubernetes'
+    path: projetox/dev
+    targetRevision: HEAD
+  syncPolicy:
+    automated:
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - Validate=false
+      - ApplyOutOfSyncOnly=true
